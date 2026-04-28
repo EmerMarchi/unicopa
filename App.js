@@ -11,6 +11,31 @@ export default function App() {
       />
       <Text style={styles.titulo}>CALENDÁRIO</Text>
     <View style={styles.card}>
+
+      <Text style={styles.data}>11/06</Text>
+
+      <Text style={styles.grupo}>Grupo A México x África do Sul</Text>
+
+      <Image
+      source={require("./assets/times/mexico.png")}
+      style={{width: 50, height: 50, marginTop: 30}}
+      />
+
+      <Text style={styles.time}>MEX</Text>
+
+      <Text style={styles.hora}>16:00</Text>
+
+      <Text style={styles.vs}>vs</Text>
+
+      <Text style={styles.time}>SRA</Text>
+
+      <Image
+      source={require("./assets/times/southafrica.png")}
+      style={{width: 50, height: 50, marginTop: 30}}
+      />
+
+     <Text style={styles.estadio}>Estádio Azteca </Text>
+     <Text style={styles.cidade}>Cidade do México • México</Text>
     </View>
       
     </View>
